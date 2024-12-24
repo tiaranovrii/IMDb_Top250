@@ -22,7 +22,7 @@ def preprocess_column(column):
 imdb_data["budget"] = preprocess_column("budget")
 imdb_data["box_office"] = preprocess_column("box_office")
 
-# Treemap based on Genre
+# Set Treemap based on Genre
 st.header("Treemap: Movies by Genre")
 
 # Preprocess genre data (splitting multiple genres into individual rows)
